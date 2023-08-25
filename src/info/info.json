@@ -1,0 +1,92 @@
+[
+    {
+      "page": "Bank",
+      "challenge": "Design an app that allows the user to make money transfers.",
+      "solution": "I created a bank app that lets the user do money transfers for which card they want to do the money transfer on.",
+      "wireframes": [
+        "../images/BankImages/WireFrameDesktop.PNG",
+        "../images/BankImages/WireFrameMobile.PNG"
+      ],
+      "midfi": [
+        "../images/BankImages/Mid_FI_FlowDesktop.PNG",
+        "../images/BankImages/Mid_FI_FlowMobile.PNG"
+      ],
+      "mobileusabletest": "../images/BankImages/mobileVideo.mp4",
+      "thinkaloud": [
+        "Ask if the user has an account.",
+        "User creates an account and logs-in",
+        "User is in the Account home screen where they click the user dropdown.",
+        "User clicks the Transfer Money button and goes to said screen.",
+        "User puts in their info and then clicks the submit button.",
+        "Transaction occurs, they get a confirmation and get sent to the main screen"
+      ],
+      "insights": [
+        "Many users wanted to select the card that they wanted to do the money transfer.",
+        "Some didn't know how much money they had when the money transfer went through.",
+        "Users didn't like that upon clicking the terms and agreement button, it would scroll back up."
+      ],
+      "insightimg": "../images/insight.jpg",
+      "userflow": "../images/BankImages/UserFlow.PNG",
+      "hifi": [
+        "../images/BankImages/HI-FI_SCREEN_FLOW_Desktop.PNG",
+        "../images/BankImages/HI-FI_SCREEN_FLOW_Mobile.PNG"
+      ],
+      "finaldesign": "../images/BankImages/desktopVideo.mp4"
+    },
+    {
+      "page": "GradJobs",
+      "challenge": "Design a job search service to help first-generation immigrants",
+      "solution": "Created a job search application that allows the user to filter/search through a list of jobs that they want.",
+      "wireframes": ["../images/GradJobImages/WireFrame.PNG"],
+      "midfi": ["../images/GradJobImages/MID-FI_Flow.PNG"],
+      "mobileusabletest": "../images/GradJobImages/Usability_Testing.mp4",
+      "thinkaloud": [
+        "Ask if the user has an account.",
+        "User creates an account and logs in",
+        "User is in the Account home screen where they click the user dropdown.",
+        "User clicks the Filter Jobs button and goes to the said screen.",
+        "User clicks the More Info button for a job they like.",
+        "User can apply to the job on the More Info page."
+      ],
+      "insights": [
+        "Users wanted to be able to search for a specific word or job and filter like that.",
+        "When clicking Sign Up, they should let us set up our Account Info.",
+        "Allow users to express themselves more in account creation."
+      ],
+      "insightimg": "../images/insight.jpg",
+      "userflow": "../images/GradJobImages/UserFlow.PNG",
+      "hifi": [
+        "../images/GradJobImages/HI-FI_Flow_Desk.PNG",
+        "../images/GradJobImages/HI-FI_Flow.PNG"
+      ],
+      "finaldesign": "../images/GradJobImages/Final_Design.mp4"
+    },
+    {
+      "page": "Movie",
+      "challenge": "Design an app that allows users to get movie tickets to their movie of choice.",
+      "solution": "Create a movie ticket app called myTickets that allows users to buy movie tickets.",
+      "wireframes": ["../images/MovieImages/WireFrame.PNG"],
+      "midfi": ["../images/MovieImages/MID-FI_Flow.PNG"],
+      "mobileusabletest": "../images/MovieImages/Usability_Testing.mp4",
+      "thinkaloud": [
+        "The user lands on the main page where they can pick whatever movie they want.",
+        "User picks the movie they want and gets sent to the movie info page.",
+        "In the msovie info page, they can pick the number of tickets they want and buy them.",
+        "The user gets sent back to the home page to look at more movies.",
+        "User clicks the user dropdown in the top right."
+      ],
+      "insights": [
+        "Many users wanted to pick more than one movie when buying tickets.",
+        "They would like the total at the bottom of the screen when adding tickets.",
+        "They would misclick the movie they wanted to watch.",
+        "To make a clear difference that they clicked the time they wanted."
+      ],
+      "insightimg": "../images/insight.jpg",
+      "userflow": "../images/MovieImages/UserFlow.PNG",
+      "hifi": [
+        "../images/MovieImages/HI-FI_Flow.PNG"
+      ],
+      "finaldesign": "../images/MovieImages/Final_Design.mp4"
+    }
+  ]
+  
