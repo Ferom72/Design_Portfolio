@@ -35,18 +35,26 @@ interface ImagesProps {
 }
 
 const ProjectTemplate: React.FC<ProjectProps> = ({ info }) => {
+  const [imagesFetched, setImagesFetched] = useState(false);
   const [images, setImages] = useState<ImagesProps | null>(null);
 
   useEffect(() => {
     function getImages() {
-      Images.map((item) => {
-        if (item.page === info?.page) {
-          setImages(item);
-        }
-      });
+      const matchingImage = Images.find((item) => item.page === info?.page);
+      if (matchingImage) {
+        setImages(matchingImage);
+        setImagesFetched(true);
+      }
     }
-    getImages();
-  }, [info]);
+
+    if (info && !imagesFetched) {
+      getImages();
+    }
+  }, [info, imagesFetched]);
+
+  if (!imagesFetched) {
+    return <div>Loading...</div>;
+  }
 
   return (
     <div>
